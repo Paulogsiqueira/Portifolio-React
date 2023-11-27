@@ -1,5 +1,4 @@
-import React from 'react';
-import css from '/public/Skills/css3.png'
+import '@/styles/skillCard/SkillCard.sass'
 
 interface Skill {
   name: string;
@@ -11,11 +10,10 @@ interface SkillCardProps {
 }
 
 const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
-  console.log(skill);
 
   return (
-    <div>
-      <div>{skill.name}</div>
+    <div className="card">
+      <h4>{skill.name}</h4>
       <img src={skill.img} alt={skill.name} />
     </div>
   );
