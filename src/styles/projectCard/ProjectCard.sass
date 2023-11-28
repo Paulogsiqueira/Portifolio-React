@@ -1,14 +1,36 @@
 @use '../variables'
 
 .project-card
-    border: 2px solid red
     background: variables.$dark-color
     width: 30%
+    height: 30rem
     padding: 10px 0
+    opacity: 80%
+    border-radius: 10px
+    &:hover 
+        opacity: 100%
+        scale:1.1
+
+
+.project-card__description
+    margin-left: 5%
+    margin-top: 1rem
+    h4
+        color: variables.$grey-color
+        font-size:20px
+        margin-top: 10px
+
+    p
+        margin-top:1rem
+        color: variables.$grey-color
+        
 
 
 .project-card__img
     img 
         width: 90%
-        opacity: 50%
+        border-radius: 5px
         margin: 0 5%
+
+.project-card__technologies
+    width: 2rem
