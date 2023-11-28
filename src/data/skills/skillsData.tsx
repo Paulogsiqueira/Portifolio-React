@@ -20,8 +20,10 @@ export const skills: Skills = {
   redux:{ name: 'Redux', img: '/public/Skills/redux.png' },
   mui:{ name: 'Material UI', img: '/public/Skills/mui.png' },
   mysql:{ name: 'MySQL', img: '/public/Skills/mysql.png' },
+  firebase:{ name: 'FireBase', img: '/public/Skills/firebase.png' },
   git:{ name: 'Git', img: '/public/Skills/git.png' },
   jira:{ name: 'Jira', img: '/public/Skills/jira.png' },
   trello:{ name: 'Trello', img: '/public/Skills/trello.png' },
   figma:{ name: 'Figma', img: '/public/Skills/figma.png' },
+  vite:{ name: 'Vite', img: '/public/Skills/vite.png' },
 }

@@ -1,13 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import {resolve} from 'path'
+import * as path from 'path'
 
 export default defineConfig({
- resolve:{
-  alias:[
-    {find:'@', replacement: resolve(__dirname,'src')},
-    {find:'~', replacement: resolve(__dirname,'Portifolio')},
-  ]
-  },	
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
   plugins: [react()],
 })

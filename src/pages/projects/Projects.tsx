@@ -7,6 +7,10 @@ interface project {
   title: string;
   description: string;
   img: string;
+  technologies: string[];
+  deploy: string;
+  github: string;
+  youtube: string;
 
 }
 
@@ -23,7 +27,16 @@ const Projects: React.FC<ProjectsProps> = () => {
         <h3>Destaques</h3>
         <div className='project-list'>
           {featuredProjects.map((project: project, index: number) => (
-            <ProjectCard key={index} project={project}/>
+            <ProjectCard key={index} project={project} />
+          ))}
+        </div>
+      </div>
+
+      <div className='allProjects'>
+        <h3>Todos os projetos</h3>
+        <div className='project-list'>
+          {projects.map((project: project, index: number) => (
+            <ProjectCard key={index} project={project} />
           ))}
         </div>
       </div>
