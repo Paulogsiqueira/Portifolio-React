@@ -1,5 +1,5 @@
 import ProjectCard from '@/components/projectCard/ProjectCard'
-import '@/styles/project/project.sass'
+import '@/styles/project/Project.sass'
 import { projects } from '@/data/projects/projectsData'
 import { featuredProjects } from '@/data/projects/featuredProjectsData'
 
