@@ -3,10 +3,12 @@
 .project-card
     background: variables.$dark-color
     width: 30%
-    height: 30rem
+    height: 35rem
     padding: 10px 0
     opacity: 80%
     border-radius: 10px
+    margin-right: 3%
+    img
     &:hover 
         opacity: 100%
         scale:1.1
@@ -30,7 +32,26 @@
     img 
         width: 90%
         border-radius: 5px
+        height:20rem
         margin: 0 5%
 
 .project-card__technologies
     width: 2rem
+
+.project-card__links
+    padding: 5%
+    display: flex
+    justify-content: start
+    a
+        display: flex
+        align-items: center
+        justify-content: center
+        text-decoration: none
+        color: variables.$grey-color
+        background: variables.$dark-blue
+        padding: 5px 5px
+        border-radius: 10px
+        margin-right: 10px
+        img
+            width: 15%
+            margin-right: 10px

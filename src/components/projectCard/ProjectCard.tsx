@@ -1,10 +1,16 @@
 import '@/styles/projectCard/ProjectCard.sass'
+import github from '/public/Projects/Icons/github.png'
+import deploy from '/public/Projects/Icons/deploy.png'
+import youtube from '/public/Projects/Icons/youtube.png'
 
 interface Project {
     title: string;
     description: string;
     img: string;
     technologies: string[];
+    deploy: string;
+    github: string;
+    youtube: string;
 }
 
 interface ProjectCardProps {
@@ -25,7 +31,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 ))}
                 <h4>{project.title}</h4>
                 <p>{project.description}</p>
-                
+            </div>
+            <div className='project-card__links'>
+                <a href={project.github}><img src={github}/>Repositório</a>
+                {project.deploy != "" && <a href={project.deploy}><img src={deploy}/>Deploy</a>}
+                {project.youtube != "" && <a href={project.youtube}><img src={youtube}/>Vídeo</a>}
             </div>
         </div>
     );

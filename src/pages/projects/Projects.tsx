@@ -1,7 +1,7 @@
 import ProjectCard from '@/components/projectCard/ProjectCard'
 import '@/styles/project/project.sass'
-import {projects} from '@/data/projects/projectsData'
-import {featuredProjects} from '@/data/projects/featuredProjectsData'
+import { projects } from '@/data/projects/projectsData'
+import { featuredProjects } from '@/data/projects/featuredProjectsData'
 
 interface project {
   title: string;
@@ -18,11 +18,16 @@ const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div className='project'>
       <h2>Projetos</h2>
-      <div className='project-list'>
-        {featuredProjects.map((project: project, index: number) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+      <p className='project-subtitle'>Projetos pessoais desenvolvidos para praticar conceitos e ajudar a fixá-los</p>
+      <div className='featured'>
+        <h3>Destaques</h3>
+        <div className='project-list'>
+          {featuredProjects.map((project: project, index: number) => (
+            <ProjectCard key={index} project={project}/>
+          ))}
+        </div>
       </div>
+
     </div>
   );
 };

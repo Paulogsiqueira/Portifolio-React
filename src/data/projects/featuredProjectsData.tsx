@@ -5,6 +5,9 @@ interface project {
     description: string;
     img: string;
     technologies: string[];
+    deploy: string;
+    github: string;
+    youtube: string;
     
 }
 
@@ -18,11 +21,25 @@ export const featuredProjects: project[] = [
             skills.css.img,
             skills.javascript.img,
             skills.react.img,
-            skills.redux.img
-        ]
-
-
+            skills.redux.img,
+            skills.mui.img
+        ],
+        deploy:'https://nike-shoes-react.vercel.app/',
+        github:'https://github.com/Paulogsiqueira/NikeShoes-React',
+        youtube: ''
     },
-
+    {
+        title: 'AdoPet',
+        description: 'Site para anunicar animais disponíveis para adoção e conectá-los com possíveis tutores',
+        img: '/public/Projects/AdoPet.png',
+        technologies:[
+            skills.html.img,
+            skills.css.img,
+            skills.javascript.img,
+        ],
+        deploy:'https://adopet-front-end.vercel.app/',
+        github:'https://github.com/Paulogsiqueira/adopet-front-end',
+        youtube: ''
+    },
 
 ];
