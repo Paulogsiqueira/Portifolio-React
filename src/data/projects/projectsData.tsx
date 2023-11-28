@@ -15,7 +15,7 @@ export const projects: project[] = [
     {
         title: 'Make Your Burguer',
         description: 'Site de hamburgueria, com funções de montar o lanche, acompanhar o pedido e enviar mensagem a hamburgueria.',
-        img: '/public/Projects/MakeYourBurguer.png',
+        img: '/Projects/MakeYourBurguer.png',
         technologies:[
             skills.html.img,
             skills.css.img,

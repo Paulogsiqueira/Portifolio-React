@@ -13,10 +13,10 @@ interface ContactsProps {
 
 const Contacts: React.FC<ContactsProps> = () => {
   const contacts: Contact[] = [
-    { title: 'E-mail', subtitle:'pgustavo-siqueira@hotmail.com', img: '/public/Contacts/email.png' },
-    { title: 'Telefone', subtitle:'(11) 99782-0009', img: '/public/Contacts/whatsapp.png' },
-    { title: 'LinkedIn', subtitle:'@paulo-gustavo-siqueira-48994916a', img: '/public/Contacts/linkedin.png' },
-    { title: 'E-mail', subtitle:'@Paulogsiqueira', img: '/public/Contacts/github.png' },
+    { title: 'E-mail', subtitle:'pgustavo-siqueira@hotmail.com', img: '/Contacts/email.png' },
+    { title: 'Telefone', subtitle:'(11) 99782-0009', img: '/Contacts/whatsapp.png' },
+    { title: 'LinkedIn', subtitle:'@paulo-gustavo-siqueira-48994916a', img: '/Contacts/linkedin.png' },
+    { title: 'E-mail', subtitle:'@Paulogsiqueira', img: '/Contacts/github.png' },
 
   ];
 

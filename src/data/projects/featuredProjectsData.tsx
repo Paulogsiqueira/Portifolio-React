@@ -15,7 +15,7 @@ export const featuredProjects: project[] = [
     {
         title: 'Nike Shoes',
         description: 'E-commerce de tênis Nike com sistema de compras/carrinho e pagamento',
-        img: '/public/Projects/NikeShoes.png',
+        img: '/Projects/NikeShoes.png',
         technologies:[
             skills.html.img,
             skills.css.img,
@@ -32,7 +32,7 @@ export const featuredProjects: project[] = [
     {
         title: 'AdoPet',
         description: 'Site para anunicar animais disponíveis para adoção e conectá-los com possíveis tutores',
-        img: '/public/Projects/AdoPet.png',
+        img: '/Projects/AdoPet.png',
         technologies:[
             skills.html.img,
             skills.css.img,
@@ -45,7 +45,7 @@ export const featuredProjects: project[] = [
     {
         title: 'MiniBlog',
         description: 'O MiniBlog é um projeto de um blog onde as pessoas podem se cadastrar para postar, ver, editar e excluir posts.',
-        img: '/public/Projects/MiniBlog.png',
+        img: '/Projects/MiniBlog.png',
         technologies:[
             skills.html.img,
             skills.css.img,
