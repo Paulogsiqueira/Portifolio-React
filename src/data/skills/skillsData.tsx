@@ -15,6 +15,7 @@ export const skills: Skills = {
   sass:{ name: 'Sass', img: '/Skills/sass.png' },
   javascript:{ name: 'JavaScript', img: '/Skills/javascript.png' },
   typescript:{ name: 'TypeScript', img: '/Skills/typescript.png' },
+  php:{ name: 'PHP', img: '/Skills/php.png' },
   vue:{ name: 'Vue.js', img: '/Skills/vue.png' },
   react:{ name: 'React.js', img: '/Skills/react.png' },
   redux:{ name: 'Redux', img: '/Skills/redux.png' },
@@ -26,4 +27,5 @@ export const skills: Skills = {
   trello:{ name: 'Trello', img: '/Skills/trello.png' },
   figma:{ name: 'Figma', img: '/Skills/figma.png' },
   vite:{ name: 'Vite', img: '/Skills/vite.png' },
+  bulma:{ name: 'Bulma', img: '/Skills/bulma.png' },
 }
