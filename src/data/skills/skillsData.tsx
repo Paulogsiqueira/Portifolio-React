@@ -1,17 +1,10 @@
-interface Skill {
-  name: string;
-  img: string;
-}
+import { skillsList } from '@/interface/skillsListInterface'
 
-interface Skills {
-  [key: string]: Skill;
-}
-
-
-export const skills: Skills = {
+export const skills: skillsList = {
   html:{ name: 'HTML', img: '/Skills/html5.png' },
   css:{ name: 'CSS', img: '/Skills/css3.png' },
   bootstrap:{ name: 'Bootstrap', img: '/Skills/bootstrap.png' },
+  bulma:{ name: 'Bulma', img: '/Skills/bulma.png' },
   sass:{ name: 'Sass', img: '/Skills/sass.png' },
   javascript:{ name: 'JavaScript', img: '/Skills/javascript.png' },
   typescript:{ name: 'TypeScript', img: '/Skills/typescript.png' },
@@ -27,5 +20,5 @@ export const skills: Skills = {
   trello:{ name: 'Trello', img: '/Skills/trello.png' },
   figma:{ name: 'Figma', img: '/Skills/figma.png' },
   vite:{ name: 'Vite', img: '/Skills/vite.png' },
-  bulma:{ name: 'Bulma', img: '/Skills/bulma.png' },
+  
 }

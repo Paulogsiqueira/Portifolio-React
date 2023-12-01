@@ -1,14 +1,8 @@
 import '@/styles/contactCard/ContactCard.sass'
-
-interface Contact {
-    title: string;
-    subtitle: string;
-    img: string;
-
-}
+import {contact} from '@/interface/contactInterface'
 
 interface ContactCardProps {
-    contact: Contact;
+    contact: contact;
 }
 
 const ContactCard: React.FC<ContactCardProps> = ({ contact }) => {

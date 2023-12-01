@@ -1,20 +1,11 @@
 import '@/styles/projectCard/ProjectCard.sass'
-import github from '/public/Projects/Icons/github.png'
-import deploy from '/public/Projects/Icons/deploy.png'
-import youtube from '/public/Projects/Icons/youtube.png'
-
-interface Project {
-    title: string;
-    description: string;
-    img: string;
-    technologies: string[];
-    deploy: string;
-    github: string;
-    youtube: string;
-}
+import github from '/Projects/Icons/github.png'
+import deploy from '/Projects/Icons/deploy.png'
+import youtube from '/Projects/Icons/youtube.png'
+import { project} from '@/interface/projectInterface'
 
 interface ProjectCardProps {
-    project: Project;
+    project: project;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {

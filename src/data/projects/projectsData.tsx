@@ -1,15 +1,5 @@
 import { skills } from '@/data/skills/skillsData'
-
-interface project {
-  title: string;
-  description: string;
-  img: string;
-  technologies: string[];
-  deploy: string;
-  github: string;
-  youtube: string;
-
-}
+import { project} from '@/interface/projectInterface'
 
 export const projects: project[] = [
   {

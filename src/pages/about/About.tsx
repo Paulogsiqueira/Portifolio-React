@@ -5,8 +5,7 @@ const About = () => {
         <div className='about-container'>
             <h2>Sobre mim</h2>
             <p>
-                Influenciado pela área de atuação do meu pai, minha trajetória acadêmica evoluiu para uma 1ª graduação em Engenharia Mecânica,
-                proporcionando-me valiosas experiências através de estágios na área de manutenção industrial.Na 2ª graduação optei por cursar Analise e Desenvolvimento de Sistemas
+            Graduado em Engenharia Mecânica e atualmente cursando Análise e Desenvolvimento de Sistemas.Desenvolvedor Front-End com experiência em React.js, Redux, JavaScript, TypeScript, Sass, Material UI e consumo de APIs REST. Possuo experiência profissional também com Metodologias Ágeis.
             </p>
         </div>
 

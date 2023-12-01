@@ -1,12 +1,8 @@
 import '@/styles/skillCard/SkillCard.sass'
-
-interface Skill {
-  name: string;
-  img: string;
-}
+import {skill} from '@/interface/skillInterface'
 
 interface SkillCardProps {
-  skill: Skill;
+  skill: skill;
 }
 
 const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {

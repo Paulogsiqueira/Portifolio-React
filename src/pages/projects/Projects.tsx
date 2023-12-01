@@ -2,17 +2,8 @@ import ProjectCard from '@/components/projectCard/ProjectCard'
 import '@/styles/project/Project.sass'
 import { projects } from '@/data/projects/projectsData'
 import { featuredProjects } from '@/data/projects/featuredProjectsData'
+import { project} from '@/interface/projectInterface'
 
-interface project {
-  title: string;
-  description: string;
-  img: string;
-  technologies: string[];
-  deploy: string;
-  github: string;
-  youtube: string;
-
-}
 
 interface ProjectsProps {
 }
