@@ -1,6 +1,7 @@
 import SkillCard from '@/components/skillCard/SkillCard'
 import '@/styles/skill/Skill.sass'
 import { skills } from '@/data/skills/skillsData'
+import { motion } from 'framer-motion';
 
 interface Skill {
   name: string;
@@ -24,14 +25,14 @@ const Skills: React.FC<SkillsProps> = () => {
   }
 
   return (
-    <div className='skill' id="skills">
+    <motion.div className='skill' id="skills" initial={{ opacity: 0, x:-150 }} animate={{ opacity: 1, x:0 }} transition={{ duration:2}}>
       <h2>Habilidades</h2>
       <div className='skill-list'>
         {mapObject(skills, (skill, key) => (
           <SkillCard key={key} skill={skill} />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

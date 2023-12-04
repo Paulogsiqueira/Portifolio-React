@@ -1,5 +1,5 @@
 import '@/styles/navbar/Navbar.sass'
-import { HashLink as Link } from "react-router-hash-link"
+import { NavHashLink as Link } from "react-router-hash-link"
 
 
 const Navbar = () => {
