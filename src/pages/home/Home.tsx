@@ -1,7 +1,8 @@
-import '@/styles/home/Home.sass'
-import perfil from '/Perfil.png'
 import { useState, useEffect } from 'react';
 import { typingEffect } from '@/methods/methods';
+import perfil from '/Perfil.png'
+import cv from '/Download/Curriculo.pdf'
+import '@/styles/home/Home.sass'
 
 
 
@@ -27,10 +28,12 @@ const Home = () => {
       <div className='home-container'>
         <h1>{apresentation} <br/><span>{name}</span></h1>
         <h4>{position}</h4>
+        <a download={cv} href={cv}>Download CV</a>
       </div>
       <div className='home-container'>
           <img src={perfil} alt="Foto de perfil"/>
       </div>
+      
     </div>
   )
 }
