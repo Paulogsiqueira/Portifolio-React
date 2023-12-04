@@ -1,7 +1,7 @@
 import SkillCard from '@/components/skillCard/SkillCard'
 import '@/styles/skill/Skill.sass'
 import { skills } from '@/data/skills/skillsData'
-import { motion } from 'framer-motion';
+import { motion,inView } from 'framer-motion';
 
 interface Skill {
   name: string;
@@ -16,7 +16,6 @@ interface SkillsProps {
 }
 
 const Skills: React.FC<SkillsProps> = () => {
-
   function mapObject<T>(
     obj: Record<string, T>,
     callback: (value: T, key: string) => React.ReactNode
