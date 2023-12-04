@@ -24,7 +24,7 @@ const Skills: React.FC<SkillsProps> = () => {
   }
 
   return (
-    <div className='skill'>
+    <div className='skill' id="skills">
       <h2>Habilidades</h2>
       <div className='skill-list'>
         {mapObject(skills, (skill, key) => (

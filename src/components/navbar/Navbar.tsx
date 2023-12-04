@@ -1,25 +1,26 @@
-import { NavLink } from 'react-router-dom'
 import '@/styles/navbar/Navbar.sass'
+import { HashLink as Link } from "react-router-hash-link"
 
-const Footer = () => {
+
+const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='navbar-links'>
         <ul>
           <li>
-            <NavLink to="/" className="navbar-link">Home</NavLink>
+            <Link className='navbar-link' smooth to="#home">Home</Link>
           </li>
           <li>
-            <NavLink to="/about" className="navbar-link">Sobre mim</NavLink>
+            <Link className='navbar-link' smooth to="#about">Sobre mim</Link>
           </li>
           <li>
-            <NavLink to="/projects" className="navbar-link">Projetos</NavLink>
+            <Link className='navbar-link' smooth to="#projects">Projetos</Link>
           </li>
           <li>
-            <NavLink to="/technologies" className="navbar-link">Tecnologias</NavLink>
+            <Link className='navbar-link' smooth to="#skills">Habilidades</Link>
           </li>
           <li>
-            <NavLink to="/contact" className="navbar-link">Contato</NavLink>
+            <Link className='navbar-link' smooth to="#contact">Contatos</Link>
           </li>
         </ul>
       </div>
@@ -27,4 +28,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Navbar

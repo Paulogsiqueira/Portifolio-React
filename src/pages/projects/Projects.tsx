@@ -11,7 +11,7 @@ interface ProjectsProps {
 const Projects: React.FC<ProjectsProps> = () => {
 
   return (
-    <div className='project'>
+    <div className='project' id="projects">
       <h2>Projetos</h2>
       <p className='project-subtitle'>Projetos pessoais desenvolvidos para praticar conceitos e ajudar a fixá-los</p>
       <div className='featured'>

@@ -10,7 +10,7 @@ interface ContactsProps {
 const Contacts: React.FC<ContactsProps> = () => {
 
   return (
-    <div className='contact'>
+    <div className='contact' id="contact">
       <h2>Contatos</h2>
       <div className='contact-list'>
         {contacts.map((contact: contact, index: number) => (
