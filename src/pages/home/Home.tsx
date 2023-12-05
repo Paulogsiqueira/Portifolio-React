@@ -26,7 +26,7 @@ const Home = () => {
         <h4>{position}</h4>
         <a download={cv} href={cv}>Download CV</a>
       </div>
-      <motion.div className='home-container' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration:7}}>
+      <motion.div className='home-container home-img' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration:7}}>
         <img src={perfil} alt="Foto de perfil" />
       </motion.div>
 

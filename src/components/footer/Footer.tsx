@@ -3,7 +3,7 @@ import '@/styles/footer/Footer.sass'
 const Footer = () => {
   return (
     <footer>
-      Paulo Gustavo Siqueira
+      © Paulo Gustavo Siqueira
     </footer>
   )
 }

@@ -10,6 +10,11 @@
 .description
     margin-top: 10%
 
+.home-img
+    display: flex
+    justify-content: center
+    align-items: center
+
 .home-container
     width: 40%
     color: variables.$white
@@ -34,7 +39,7 @@
         box-shadow: 2px 5px 10px rgba(0, 0, 0, 1)
         &:hover
             transform: rotate3d(120deg)
-        
+
     h4
         margin-bottom: 2rem
     a
@@ -49,3 +54,23 @@
         &:hover
             background: variables.$dark-green
             cursor: pointer
+
+@media (max-width: 810px)
+    .home-containers
+        margin-bottom: 50px
+    .home-container
+        h1
+            font-size: 24px
+            line-height: 2.5rem
+
+@media (max-width: 600px)
+    .home-container
+        width: 70%
+        text-align: center
+        h1
+            font-size: 18px
+            line-height: 1.5rem
+    .home-containers
+        flex-direction: column-reverse
+        justify-content: center
+        align-items: center
