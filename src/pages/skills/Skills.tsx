@@ -1,21 +1,21 @@
 import SkillCard from '@/components/skillCard/SkillCard'
 import '@/styles/skill/Skill.sass'
 import { skills } from '@/data/skills/skillsData'
-import { motion,inView } from 'framer-motion';
-
-interface Skill {
-  name: string;
-  img: string;
-}
+import { skill } from '@/interface/skillInterface'
+import { motion,useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 interface Skills {
-  [key: string]: Skill;
+  [key: string]: skill;
 }
 
 interface SkillsProps {
 }
 
 const Skills: React.FC<SkillsProps> = () => {
+  const ref = useRef(null)
+  const isInView = useInView(ref)
+
   function mapObject<T>(
     obj: Record<string, T>,
     callback: (value: T, key: string) => React.ReactNode
@@ -24,7 +24,7 @@ const Skills: React.FC<SkillsProps> = () => {
   }
 
   return (
-    <motion.div className='skill' id="skills" initial={{ opacity: 0, x:-150 }} animate={{ opacity: 1, x:0 }} transition={{ duration:2}}>
+    <motion.div className='skill' id="skills" ref={ref} animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : -150 }} transition={{duration:1}}>
       <h2>Habilidades</h2>
       <div className='skill-list'>
         {mapObject(skills, (skill, key) => (
