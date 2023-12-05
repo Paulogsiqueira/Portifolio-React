@@ -10,9 +10,11 @@ interface ContactsProps {
 }
 
 const Contacts: React.FC<ContactsProps> = () => {
+  const ref = useRef(null)
+  const isInView = useInView(ref)
 
   return (
-    <motion.div className='contact' id="contact">
+    <motion.div className='contact' id="contact" ref={ref} animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 150 }} transition={{duration:1}}>
       <h2>Contatos</h2>
       <div className='contact-list'>
         {contacts.map((contact: contact, index: number) => (

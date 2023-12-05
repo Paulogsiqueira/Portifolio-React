@@ -7,9 +7,9 @@
     
 
 .navbar-links
-    margin:0 20% 0 20%
+    margin:0 20% 0% 20%
     padding-top: 0.4rem
-    padding-bottom: 0.5rem
+    padding-bottom: 0.3rem
     ul
         display: flex
         flex-direction: row
@@ -19,11 +19,18 @@
         li
             padding: 1.1rem
             font-weight: 700
+            margin-bottom: 0.3rem
+            &:hover
+                margin-bottom: 0.1rem
 
 
 .navbar-link
     text-decoration: none
-    color: variables.$light-green
-                font-size: 22px
-                font-family: variables.$title-font
+    color: variables.$white
+    font-family: variables.$title-font
+    
+    
+    &:hover
+        color: variables.$light-green
+        font-size: 18px
                 
