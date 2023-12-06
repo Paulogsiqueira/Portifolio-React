@@ -1,29 +1,28 @@
 import '@/styles/navbar/Navbar.sass'
-import { NavHashLink as Link } from "react-router-hash-link"
+import Menu from '../menu/Menu'
+import menuHamb from '/Navbar/menu.png'
+import { useDispatch } from 'react-redux'
+import { menuOpen} from '@/redux/sliceMenu'
+
 
 
 const Navbar = () => {
+  const dispatch = useDispatch()
+
+  const openMenu = () => {
+    dispatch(menuOpen())
+  }
+
   return (
     <div className='navbar'>
-      <div className='navbar-links'>
-        <ul>
-          <li>
-            <Link className='navbar-link' smooth to="#home">Home</Link>
-          </li>
-          <li>
-            <Link className='navbar-link' smooth to="#about">Sobre mim</Link>
-          </li>
-          <li>
-            <Link className='navbar-link' smooth to="#projects">Projetos</Link>
-          </li>
-          <li>
-            <Link className='navbar-link' smooth to="#skills">Habilidades</Link>
-          </li>
-          <li>
-            <Link className='navbar-link' smooth to="#contact">Contatos</Link>
-          </li>
-        </ul>
+      <div className='navbar-menu'>
+        <img src={menuHamb} onClick={() => openMenu()}/>
       </div>
+      <div className='navbar-title'>
+        <h1>Portifólio</h1>
+      </div>
+      <Menu/>
+
     </div>
   )
 }
