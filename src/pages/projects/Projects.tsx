@@ -1,21 +1,17 @@
 import { featuredProjects } from '@/data/projects/featuredProjectsData'
-import { motion,useInView } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { projects } from '@/data/projects/projectsData'
-import { project} from '@/interface/projectInterface'
-import { useRef } from 'react';
+import { project } from '@/interface/projectInterface'
+import { useRef, ReactElement } from 'react';
 import ProjectCard from '@/components/projectCard/ProjectCard'
 import '@/styles/project/Project.sass'
 
-
-interface ProjectsProps {
-}
-
-const Projects: React.FC<ProjectsProps> = () => {
-  const ref = useRef(null)
-  const isInView = useInView(ref)
+const Projects: React.FC = (): ReactElement => {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const isInView: boolean = useInView(ref)
 
   return (
-    <motion.div className='project' id="projects" ref={ref} animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : -150 }} transition={{duration:1}}>
+    <motion.div className='project' id="projects" ref={ref} animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : -150 }} transition={{ duration: 1 }}>
       <h2>Projetos</h2>
       <p className='project-subtitle'>Projetos pessoais desenvolvidos para praticar conceitos e ajudar a fixá-los</p>
       <div className='featured'>

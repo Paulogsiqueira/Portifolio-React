@@ -1,3 +1,4 @@
+import { ReactElement } from 'react'
 import { contact } from '@/interface/contactInterface'
 import '@/styles/contactCard/ContactCard.sass'
 
@@ -5,7 +6,7 @@ interface ContactCardProps {
     contact: contact;
 }
 
-const ContactCard: React.FC<ContactCardProps> = ({ contact }) => {
+const ContactCard: React.FC<ContactCardProps> = ({ contact }): ReactElement => {
 
     return (
         <div className="contact-card">

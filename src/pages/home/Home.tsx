@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, ReactElement } from 'react';
 import { typingEffect } from '@/methods/methods';
 import { motion } from 'framer-motion';
 import perfil from '/Perfil.jpeg'
@@ -6,11 +6,10 @@ import cv from '/Download/Curriculo.pdf'
 import '@/styles/home/Home.sass'
 
 
-
-const Home = () => {
-  const [apresentation, setApresentation] = useState('');
-  const [name, setName] = useState('');
-  const [position, setPosition] = useState('');
+const Home: React.FC = (): ReactElement => {
+  const [apresentation, setApresentation] = useState<string>('');
+  const [name, setName] = useState<string>('');
+  const [position, setPosition] = useState<string>('');
 
   useEffect(() => {
     typingEffect("Olá, eu sou o", setApresentation);

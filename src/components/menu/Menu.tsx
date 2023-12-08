@@ -1,32 +1,34 @@
 import { NavHashLink as Link } from "react-router-hash-link"
 import { useSelector, useDispatch } from 'react-redux'
 import { menuClose, useMenu } from '@/redux/sliceMenu'
+import { ReactElement } from 'react'
+import { AppDispatch } from '@/redux/store'
 import Modal from 'react-modal';
 import close from '/Navbar/close.png'
 import '@/styles/menu/Menu.sass'
 
-const Menu = () => {
+const Menu: React.FC = (): ReactElement => {
 
     const menu = useSelector(useMenu)
-    const menuIsOpen = (menu.isOpen)
-    const dispatch = useDispatch()
+    const menuIsOpen: boolean = (menu.isOpen)
+    const dispatch = useDispatch<AppDispatch>();
 
 
-    const closeMenu = () => {
+    const closeMenu = (): void => {
         dispatch(menuClose())
     }
 
     return (
         <div>
             <Modal
-            style={{
-                overlay: {
-                  backgroundColor: 'transparent',
-                },
-              }}
-                isOpen={ menuIsOpen }
-                onRequestClose={ closeMenu }
-                shouldCloseOnEsc={ true}
+                style={{
+                    overlay: {
+                        backgroundColor: 'transparent',
+                    },
+                }}
+                isOpen={menuIsOpen}
+                onRequestClose={closeMenu}
+                shouldCloseOnEsc={true}
                 className='modal-content' >
                 <div className='modal-hamb'>
                     <div className='modal-close'>

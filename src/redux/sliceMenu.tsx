@@ -8,7 +8,7 @@ interface Menu {
 export const sliceMenu = createSlice({
     name: 'menu',
     initialState: {
-        isOpen:false
+        isOpen: false
     },
     reducers: {
         menuOpen(state) {
@@ -20,7 +20,7 @@ export const sliceMenu = createSlice({
     }
 })
 
-export const { menuOpen, menuClose} = sliceMenu.actions
+export const { menuOpen, menuClose } = sliceMenu.actions
 
 export const useMenu = (state: any) => {
     return state.menu as Menu

@@ -1,6 +1,7 @@
+import { ReactElement} from 'react'
 import '@/styles/footer/Footer.sass'
 
-const Footer = () => {
+const Footer: React.FC = (): ReactElement => {
   return (
     <footer>
       © Paulo Gustavo Siqueira

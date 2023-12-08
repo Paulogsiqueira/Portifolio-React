@@ -1,4 +1,5 @@
 import { project} from '@/interface/projectInterface'
+import { ReactElement } from 'react'
 import github from '/Projects/Icons/github.png'
 import deploy from '/Projects/Icons/deploy.png'
 import youtube from '/Projects/Icons/youtube.png'
@@ -8,8 +9,8 @@ interface ProjectCardProps {
     project: project;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-    const technologies = project.technologies
+const ProjectCard: React.FC<ProjectCardProps> = ({ project }): ReactElement => {
+    const technologies: string[] = project.technologies
 
     return (
         <div className="project-card">
@@ -24,9 +25,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 <p>{project.description}</p>
             </div>
             <div className='project-card__links'>
-                <a href={project.github}><img src={github}/>Repositório</a>
-                {project.deploy != "" && <a href={project.deploy}><img src={deploy}/>Deploy</a>}
-                {project.youtube != "" && <a href={project.youtube}><img src={youtube}/>Vídeo</a>}
+                <a href={project.github} target="_blank" rel="noopener noreferrer"><img src={github} alt="Icone Github"/>Repositório</a>
+                {project.deploy != "" && <a href={project.deploy} target="_blank" rel="noopener noreferrer"><img src={deploy} alt="Icone Deploy"/>Deploy</a>}
+                {project.youtube != "" && <a href={project.youtube} target="_blank" rel="noopener noreferrer"><img src={youtube} alt="Icone Youtube"/>Vídeo</a>}
             </div>
         </div>
     );

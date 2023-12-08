@@ -1,20 +1,13 @@
-import { motion,useInView } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { skills } from '@/data/skills/skillsData'
-import { skill } from '@/interface/skillInterface'
-import { useRef } from 'react';
+import { useRef, ReactElement } from 'react';
 import SkillCard from '@/components/skillCard/SkillCard'
 import '@/styles/skill/Skill.sass'
 
-interface Skills {
-  [key: string]: skill;
-}
 
-interface SkillsProps {
-}
-
-const Skills: React.FC<SkillsProps> = () => {
-  const ref = useRef(null)
-  const isInView = useInView(ref)
+const Skills: React.FC = (): ReactElement => {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const isInView: boolean = useInView(ref)
 
   function mapObject<T>(
     obj: Record<string, T>,
@@ -24,7 +17,7 @@ const Skills: React.FC<SkillsProps> = () => {
   }
 
   return (
-    <motion.div className='skill' id="skills" ref={ref} animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : -150 }} transition={{duration:1}}>
+    <motion.div className='skill' id="skills" ref={ref} animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : -150 }} transition={{ duration: 1 }}>
       <h2>Habilidades</h2>
       <div className='skill-list'>
         {mapObject(skills, (skill, key) => (

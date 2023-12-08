@@ -4,10 +4,14 @@ import Layout from './components/layout/Layout'
 import { useSelector } from 'react-redux'
 import { useMenu } from './redux/sliceMenu'
 
+interface Menu {
+  isOpen: boolean;
+}
+
 function App() {
 
-  const menu = useSelector(useMenu)
-  const menuOpen =(menu.isOpen)
+  const menu: Menu = useSelector(useMenu)
+  const menuOpen: boolean =(menu.isOpen)
 
   return (
     <>
