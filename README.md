@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Portifólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site pessoal utilizando React, TypeScript, Vite e Sass para criar uma experiência interativa e responsiva. O projeto apresenta seções distintas, incluindo uma introdução pessoal com download de currículo, detalhes profissionais e habilidades técnicas, além de um portfólio de projetos com links para repositórios, deploys e vídeos.
 
-Currently, two official plugins are available:
+## 📋 Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+1.Introdução Pessoal
+  Apresenta meu nome, cargo, imagem de perfil e oferece a opção de baixar meu currículo.
+  
+2.História Profissional
+Detalha minha trajetória profissional, destacando as experiências e expertise em diversas tecnologias.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3.Competências Técnicas
+Expõe as habilidades técnicas que desenvolvi, evidenciando as tecnologias utilizadas em projetos anteriores.
 
-- Configure the top-level `parserOptions` property like this:
+4.Portfólio de Projetos
+Apresenta os projetos disponíveis, fornecendo links para repositórios, deploys e vídeos demonstrativos.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+5.Informações de Contato
+Fornece links e meios de contato para facilitar a comunicação.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+6.Componentização e Estilo
+Implementa componentes reutilizáveis para promover uma estrutura modular e de fácil manutenção.
+Aplica estilos atraentes e responsivos usando Sass para uma experiência visual harmoniosa.
+
+7.Design Responsivo:
+Assegura que o aplicativo seja responsivo, proporcionando uma experiência de usuário otimizada tanto em dispositivos móveis quanto em desktops.
+
+8.Gerenciamento Global de Estado:
+Utiliza o Redux do React para eficaz gerenciamento do estado global do aplicativo, garantindo consistência e eficiência no fluxo de dados.
+
+## ⚙️ Tecnologias utilizadas
+
+- React
+- React-router-hash-link
+- Redux
+- React-modal
+- Framer-motion
+- TypeScript
+- Sass
+- Vite
+
+
+## ✅ Deploy
+
+https://portifolio-react-orcin.vercel.app/
