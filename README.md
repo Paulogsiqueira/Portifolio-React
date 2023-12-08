@@ -5,30 +5,29 @@ Site pessoal utilizando React, TypeScript, Vite e Sass para criar uma experiênc
 ## 📋 Sobre
 
 
-1.Introdução Pessoal
+1.Introdução Pessoal</br>
   Apresenta meu nome, cargo, imagem de perfil e oferece a opção de baixar meu currículo.
   
-2.História Profissional
+2.História Profissional</br>
 Detalha minha trajetória profissional, destacando as experiências e expertise em diversas tecnologias.
 
-3.Competências Técnicas
+3.Competências Técnicas</br>
 Expõe as habilidades técnicas que desenvolvi, evidenciando as tecnologias utilizadas em projetos anteriores.
 
-4.Portfólio de Projetos
+4.Portfólio de Projetos</br>
 Apresenta os projetos disponíveis, fornecendo links para repositórios, deploys e vídeos demonstrativos.
 
-5.Informações de Contato
+5.Informações de Contato</br>
 Fornece links e meios de contato para facilitar a comunicação.
 
-6.Componentização e Estilo
-Implementa componentes reutilizáveis para promover uma estrutura modular e de fácil manutenção.
-Aplica estilos atraentes e responsivos usando Sass para uma experiência visual harmoniosa.
+6.Componentização e Estilo</br>
+Implementa componentes reutilizáveis para promover uma estrutura modular e de fácil manutenção.</br>
 
-7.Design Responsivo:
+7.Design Responsivo</br>
 Assegura que o aplicativo seja responsivo, proporcionando uma experiência de usuário otimizada tanto em dispositivos móveis quanto em desktops.
 
-8.Gerenciamento Global de Estado:
-Utiliza o Redux do React para eficaz gerenciamento do estado global do aplicativo, garantindo consistência e eficiência no fluxo de dados.
+8.Gerenciamento Global de Estado</br>
+Utiliza o Redux do React para um eficaz gerenciamento do estado global do aplicativo, garantindo consistência e eficiência no fluxo de dados.
 
 ## ⚙️ Tecnologias utilizadas
 
