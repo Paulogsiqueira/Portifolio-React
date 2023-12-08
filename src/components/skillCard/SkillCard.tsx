@@ -1,5 +1,5 @@
-import '@/styles/skillCard/SkillCard.sass'
 import {skill} from '@/interface/skillInterface'
+import '@/styles/skillCard/SkillCard.sass'
 
 
 interface SkillCardProps {

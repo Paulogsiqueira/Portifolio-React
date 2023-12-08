@@ -1,8 +1,8 @@
-import '@/styles/projectCard/ProjectCard.sass'
+import { project} from '@/interface/projectInterface'
 import github from '/Projects/Icons/github.png'
 import deploy from '/Projects/Icons/deploy.png'
 import youtube from '/Projects/Icons/youtube.png'
-import { project} from '@/interface/projectInterface'
+import '@/styles/projectCard/ProjectCard.sass'
 
 interface ProjectCardProps {
     project: project;

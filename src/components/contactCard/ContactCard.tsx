@@ -1,5 +1,5 @@
-import '@/styles/contactCard/ContactCard.sass'
 import { contact } from '@/interface/contactInterface'
+import '@/styles/contactCard/ContactCard.sass'
 
 interface ContactCardProps {
     contact: contact;

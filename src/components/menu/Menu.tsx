@@ -1,9 +1,9 @@
-import Modal from 'react-modal';
-import '@/styles/menu/Menu.sass'
 import { NavHashLink as Link } from "react-router-hash-link"
 import { useSelector, useDispatch } from 'react-redux'
 import { menuClose, useMenu } from '@/redux/sliceMenu'
+import Modal from 'react-modal';
 import close from '/Navbar/close.png'
+import '@/styles/menu/Menu.sass'
 
 const Menu = () => {
 

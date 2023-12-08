@@ -1,10 +1,10 @@
+import { featuredProjects } from '@/data/projects/featuredProjectsData'
+import { motion,useInView } from 'framer-motion';
+import { projects } from '@/data/projects/projectsData'
+import { project} from '@/interface/projectInterface'
+import { useRef } from 'react';
 import ProjectCard from '@/components/projectCard/ProjectCard'
 import '@/styles/project/Project.sass'
-import { projects } from '@/data/projects/projectsData'
-import { featuredProjects } from '@/data/projects/featuredProjectsData'
-import { project} from '@/interface/projectInterface'
-import { motion,useInView } from 'framer-motion';
-import { useRef } from 'react';
 
 
 interface ProjectsProps {

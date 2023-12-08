@@ -1,8 +1,8 @@
-import '@/styles/navbar/Navbar.sass'
-import Menu from '../menu/Menu'
-import menuHamb from '/Navbar/menu.png'
 import { useDispatch } from 'react-redux'
 import { menuOpen} from '@/redux/sliceMenu'
+import menuHamb from '/Navbar/menu.png'
+import Menu from '../menu/Menu'
+import '@/styles/navbar/Navbar.sass'
 
 
 

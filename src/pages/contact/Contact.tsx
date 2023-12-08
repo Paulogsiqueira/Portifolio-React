@@ -1,9 +1,9 @@
-import ContactCard from '@/components/contactCard/ContactCard'
-import '@/styles/contact/Contact.sass'
 import {contact} from '@/interface/contactInterface'
 import {contacts} from '@/data/contact/contactsData'
 import { motion,useInView } from 'framer-motion';
 import { useRef } from 'react';
+import ContactCard from '@/components/contactCard/ContactCard'
+import '@/styles/contact/Contact.sass'
 
 
 interface ContactsProps {

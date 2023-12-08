@@ -1,9 +1,9 @@
-import SkillCard from '@/components/skillCard/SkillCard'
-import '@/styles/skill/Skill.sass'
+import { motion,useInView } from 'framer-motion';
 import { skills } from '@/data/skills/skillsData'
 import { skill } from '@/interface/skillInterface'
-import { motion,useInView } from 'framer-motion';
 import { useRef } from 'react';
+import SkillCard from '@/components/skillCard/SkillCard'
+import '@/styles/skill/Skill.sass'
 
 interface Skills {
   [key: string]: skill;
