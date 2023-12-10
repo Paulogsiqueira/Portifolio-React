@@ -1,10 +1,10 @@
-import React from 'react'
 import { Provider } from 'react-redux' 
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './styles/main.sass'
+import React from 'react'
 import store from '@/redux/store.tsx'
 import Modal from 'react-modal';
+import App from './App.tsx'
+import './styles/main.sass'
 
 Modal.setAppElement('#root');
 

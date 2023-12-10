@@ -1,8 +1,8 @@
 import { BrowserRouter } from 'react-router-dom'
-import Footer from './components/footer/Footer'
-import Layout from './components/layout/Layout'
 import { useSelector } from 'react-redux'
 import { useMenu } from './redux/sliceMenu'
+import Footer from './components/footer/Footer'
+import Layout from './components/layout/Layout'
 
 interface Menu {
   isOpen: boolean;
