@@ -4,7 +4,6 @@ Site pessoal utilizando React, TypeScript, Vite e Sass para criar uma experiênc
 
 ## 📋 Sobre
 
-
 1.Introdução Pessoal</br>
   Apresenta meu nome, cargo, imagem de perfil e oferece a opção de baixar meu currículo.
   
