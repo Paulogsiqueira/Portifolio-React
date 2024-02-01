@@ -1,33 +1,29 @@
-# Organizer
+# Portifólio
 
-O projeto "Organizer" é um aplicativo web inovador que implementa os princípios eficazes do método Kanban para a gestão visual de tarefas e projetos. Desenvolvido com tecnologias modernas como React para o frontend, Node.js e Express para o backend, e MySQL para o armazenamento de dados, o Organizer oferece uma eficiente na gestão de suas atividades diárias. Com uma interface intuitiva e adaptável, o aplicativo permite aos usuários criar, mover e monitorar suas tarefas em diferentes estágios, proporcionando uma visão clara do fluxo de trabalho.
+Site pessoal utilizando React, TypeScript, Vite e Sass para criar uma experiência interativa e responsiva. O projeto apresenta características distintas, incluindo uma introdução pessoal com download de currículo, detalhes profissionais e habilidades técnicas, além de um portfólio de projetos com links para repositórios, implantações e vídeos
 
-## 📋 Funcionalidades
+## 📋 Sobre
 
-1.Cadastro de Usuário</br>
-  Permite que novos usuários se registrem no aplicativo fornecendo informações como nome, e-mail e senha.
-  
-2.Login/Logout:</br>
-Permite que usuários autenticados realizem login para acessar suas contas e, posteriormente, realizem logout para encerrar a sessão.
+1. Introdução Pessoal </ br >
+  Apresenta meu nome, carga, imagem de perfil e oferece a opção de baixar meu currículo .
 
-3.Edição de Usuário:</br>
-Oferece a funcionalidade de editar informações do perfil do usuário, como nome, senha ou outras configurações personalizadas.
+2. História Profissional </ br >
+Detalha minha trajetória profissional, destacando as experiências e expertise em diversas tecnologias .
 
-4.Criação de Card</br>
-Permite aos usuários criar novos cards para representar tarefas ou atividades, com campos para título, descrição e outras informações relevantes.
+3. Competências Técnicas </ br >
+Expõe as habilidades técnicas que desenvolvi, evidenciando as tecnologias utilizadas nos projetos anteriores .
 
-5.Movimentação de Card</br>
-Facilita a movimentação de cards entre diferentes colunas ou estágios do método Kanban, representando as mudanças no status das tarefas.
+4. Portfólio de Projetos </ br >
+Apresenta os projetos disponíveis, fornece links para repositórios, implantações e vídeos demonstrativos .
 
-6.Exclusão de Card</br>
-Possibilita a exclusão de cards, removendo tarefas que não são mais relevantes ou foram concluídas.</br>
+5. Informações de contato </ br >
+Fornece links e meios de contato para facilitar a comunicação .
 
-7.Finalização de Card</br>
-Permite que usuários marquem cards como concluídos, indicando que uma determinada tarefa foi finalizada com sucesso.
+6. Componentização e Estilo </ br >
+Implementa componentes reutilizáveis ​​para promover uma estrutura modular e de fácil manutenção .</ br >
 
-8.Geração de Estatísticas</br>
-Fornece recursos para a análise e geração de estatísticas relacionadas ao desempenho do usuário. Essas estatísticas oferecem insights valiosos para aprimorar a eficiência e o planejamento.
-
+7.Design Responsivo</ br >
+Garanta que o aplicativo seja responsivo, proporcionando uma experiência de usuário otimizada tanto em dispositivos móveis quanto em desktops.
 
 ## ⚙️ Tecnologias utilizadas
 
