@@ -1,7 +1,23 @@
 import { skills } from '@/data/skills/skillsData'
-import { project} from '@/interface/projectInterface'
+import { project } from '@/interface/projectInterface'
 
 export const projects: project[] = [
+  {
+    title: 'MiniBlog',
+    description: 'O MiniBlog é um projeto de um blog onde as pessoas podem se cadastrar para postar, ver, editar e excluir posts.',
+    img: '/Projects/MiniBlog.png',
+    technologies: [
+      skills.html.img,
+      skills.css.img,
+      skills.javascript.img,
+      skills.react.img,
+      skills.vite.img,
+      skills.firebase.img
+    ],
+    deploy: '',
+    github: 'https://github.com/Paulogsiqueira/MiniBlog-React',
+    youtube: 'https://www.youtube.com/watch?v=e4bz8RGZ_KI'
+  },
   {
     title: 'Secret Word',
     description: 'Jogo de advinhação, onde é informado para o usuário uma categoria e ele deve descobrir a palavra secreta que pertence a essa categoria',

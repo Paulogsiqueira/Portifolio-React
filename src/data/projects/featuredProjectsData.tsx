@@ -33,20 +33,22 @@ export const featuredProjects: project[] = [
         youtube: ''
     },
     {
-        title: 'MiniBlog',
-        description: 'O MiniBlog é um projeto de um blog onde as pessoas podem se cadastrar para postar, ver, editar e excluir posts.',
-        img: '/Projects/MiniBlog.png',
+        title: 'Organizer',
+        description: 'O Organizer é um projeto interativo que coloca em prática a metodologia KanBan',
+        img: '/Projects/Organizer.png',
         technologies:[
             skills.html.img,
             skills.css.img,
             skills.javascript.img,
+            skills.typescript.img,
             skills.react.img,
             skills.vite.img,
-            skills.firebase.img
+            skills.mysql.img,
+            skills.node.img
         ],
-        deploy:'',
-        github:'https://github.com/Paulogsiqueira/MiniBlog-React',
-        youtube: 'https://www.youtube.com/watch?v=e4bz8RGZ_KI'
+        deploy:'https://organizer-liard.vercel.app/',
+        github:'https://github.com/Paulogsiqueira/Organizer',
+        youtube: ''
     },
 
 ];

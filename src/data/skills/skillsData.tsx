@@ -20,5 +20,6 @@ export const skills: skillsList = {
   trello:{ name: 'Trello', img: '/Skills/trello.png' },
   figma:{ name: 'Figma', img: '/Skills/figma.png' },
   vite:{ name: 'Vite', img: '/Skills/vite.png' },
+  node:{ name: 'Node', img: '/Skills/node.png'}
   
 }
