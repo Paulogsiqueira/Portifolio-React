@@ -12,9 +12,11 @@ export const featuredProjects: project[] = [
             skills.javascript.img,
             skills.typescript.img,
             skills.react.img,
+            skills.redux.img,
             skills.vite.img,
             skills.mysql.img,
             skills.node.img
+            
         ],
         deploy:'https://organizer-liard.vercel.app/',
         github:'https://github.com/Paulogsiqueira/Organizer',
