@@ -3,6 +3,24 @@ import { project} from '@/interface/projectInterface'
 
 export const featuredProjects: project[] = [
     {
+        title: 'Organizer',
+        description: 'O Organizer é um projeto interativo que coloca em prática a metodologia KanBan',
+        img: '/Projects/Organizer.png',
+        technologies:[
+            skills.html.img,
+            skills.css.img,
+            skills.javascript.img,
+            skills.typescript.img,
+            skills.react.img,
+            skills.vite.img,
+            skills.mysql.img,
+            skills.node.img
+        ],
+        deploy:'https://organizer-liard.vercel.app/',
+        github:'https://github.com/Paulogsiqueira/Organizer',
+        youtube: ''
+    },
+     {
         title: 'Nike Shoes',
         description: 'E-commerce de tênis Nike com sistema de compras/carrinho e pagamento',
         img: '/Projects/NikeShoes.png',
@@ -31,24 +49,6 @@ export const featuredProjects: project[] = [
         deploy:'https://adopet-front-end.vercel.app/',
         github:'https://github.com/Paulogsiqueira/adopet-front-end',
         youtube: ''
-    },
-    {
-        title: 'Organizer',
-        description: 'O Organizer é um projeto interativo que coloca em prática a metodologia KanBan',
-        img: '/Projects/Organizer.png',
-        technologies:[
-            skills.html.img,
-            skills.css.img,
-            skills.javascript.img,
-            skills.typescript.img,
-            skills.react.img,
-            skills.vite.img,
-            skills.mysql.img,
-            skills.node.img
-        ],
-        deploy:'https://organizer-liard.vercel.app/',
-        github:'https://github.com/Paulogsiqueira/Organizer',
-        youtube: ''
-    },
+    }
 
 ];
