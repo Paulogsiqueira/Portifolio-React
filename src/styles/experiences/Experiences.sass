@@ -1,0 +1,44 @@
+@use '../variables'
+
+.experiences-container
+    width: 90%
+    margin: 3rem auto 0 auto
+    p
+        color: variables.$grey-color
+        font-family: variables.$text-font
+        font-size: 12px
+        line-height: 1.5
+    h2
+        color: variables.$white
+        text-align: center
+        margin-bottom: 2rem
+        font-size: 30px
+    .experiences-title
+        color: variables.$grey-color
+        font-family: variables.$text-font
+        font-size: 16px
+        line-height: 1.5
+    .experiences-subtitle
+        color: variables.$grey-color
+        font-family: variables.$text-font
+        font-size: 14px
+        line-height: 1.5
+        margin-top: 4px
+    .experiences-details
+        margin-top: 4px
+        margin-bottom: 30px
+
+
+@media (max-width: 810px)
+    .experiences-container
+        width: 80%
+        p
+            font-size: 18px
+        h2
+            font-size: 24px
+
+@media (max-width: 600px)
+    .experiences-container
+        width: 90%
+        p
+            font-size: 16px

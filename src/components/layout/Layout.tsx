@@ -6,6 +6,7 @@ import Projects from '@/pages/projects/Projects'
 import Skills from '@/pages/skills/Skills'
 import Navbar from '@/components/navbar/Navbar'
 import '@/styles/layout/Layout.sass'
+import Experiences from '@/pages/experiences/Experiences'
 
 const Layout: React.FC = (): ReactElement => {
 
@@ -14,6 +15,7 @@ const Layout: React.FC = (): ReactElement => {
       <Navbar />
       <Home />
       <About />
+      <Experiences/>
       <Skills />
       <Projects />
       <Contact />
