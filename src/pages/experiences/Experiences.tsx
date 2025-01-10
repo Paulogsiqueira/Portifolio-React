@@ -94,8 +94,11 @@ const Experiences: React.FC = (): ReactElement => {
             </TimelineSeparator>
             <TimelineContent>
               <p className="experiences-title">AnyTask Soluções</p>
+               <p className="experiences-subtitle">
+                Cargo Inicial: Estagiário de Desenvolvimento
+              </p>
               <p className="experiences-subtitle">
-                Cargo: Desenvolvedor Júnior IV
+                Cargo Final: Desenvolvedor Júnior IV
               </p>
               <p className="experiences-details">
                 <span className="experiences-subtitle">
@@ -114,7 +117,7 @@ const Experiences: React.FC = (): ReactElement => {
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>
-              <p className="experiences-title"> 06/2024 até Atual</p>
+              <p className="experiences-title"> 06/2024 até 01/2025</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot />
