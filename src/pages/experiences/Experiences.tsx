@@ -95,7 +95,7 @@ const Experiences: React.FC = (): ReactElement => {
             <TimelineContent>
               <p className="experiences-title">AnyTask Soluções</p>
               <p className="experiences-subtitle">
-                Cargo: Estagiário de Desenvolvimento
+                Cargo: Desenvolvedor Júnior IV
               </p>
               <p className="experiences-details">
                 <span className="experiences-subtitle">
@@ -107,7 +107,7 @@ const Experiences: React.FC = (): ReactElement => {
                     PrimeFaces e CSS
                   </li>
                   <li>Desenvolvimento de RPA com Java 11, Selenium</li>
-                  <li>Outras ferramentas: MySQL, Git, RedMine</li>
+                  <li>Outras ferramentas: PostgreSQL, Git, RedMine</li>
                 </ul>
               </p>
             </TimelineContent>
