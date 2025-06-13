@@ -61,7 +61,7 @@ const Experiences: React.FC = (): ReactElement => {
               <p className="experiences-title">AnyTask Soluções</p>
               <p className="experiences-subtitle">Cargo: Desenvolvedor Fullstack</p>
               <div className="experiences-details">
-                <span className="experiences-subtitle">Principais atividades:</span>
+                <span className="experiences-subtitle">Principais atividades:
                 <ul>
                   <li>
                     <strong>Responsabilidades:</strong>
@@ -84,6 +84,7 @@ const Experiences: React.FC = (): ReactElement => {
                     </ul>
                   </li>
                 </ul>
+               </span>
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -100,7 +101,7 @@ const Experiences: React.FC = (): ReactElement => {
               <p className="experiences-title">Claire co</p>
               <p className="experiences-subtitle">Cargo: Desenvolvedor Front-end</p>
               <div className="experiences-details">
-                <span className="experiences-subtitle">Tecnologias usadas:</span>
+                <span className="experiences-subtitle">Tecnologias usadas:
                 <ul>
                   <li>HTML, CSS, Tailwind, Shadcn, Apexchart</li>
                   <li>React, Next</li>
@@ -117,6 +118,7 @@ const Experiences: React.FC = (): ReactElement => {
                   <li>Ofertas de acompanhamento personalizado</li>
                   <li>Visualização do perfil com gráficos</li>
                 </ul>
+                
                 <br />
                 <strong>Desenvolvimento do módulo Claire Pass:</strong>
                 <ul>
@@ -124,6 +126,7 @@ const Experiences: React.FC = (): ReactElement => {
                   <li>Exibição por departamentos e índices psicológicos</li>
                   <li>Tela de controle para edição e liberação de acessos</li>
                 </ul>
+                </span>
               </div>
             </TimelineContent>
           </TimelineItem>
