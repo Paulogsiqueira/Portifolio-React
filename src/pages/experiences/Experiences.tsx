@@ -22,36 +22,9 @@ const Experiences: React.FC = (): ReactElement => {
             },
           }}
         >
-          <TimelineItem>
+          
             <TimelineOppositeContent>
-              <p className="experiences-title">03/2020 até 06/2022</p>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              <p className="experiences-title">Bruna Semijóias</p>
-              <p className="experiences-subtitle">
-                Cargo: Analista de Melhorias Contínuas
-              </p>
-              <p className="experiences-details">
-                <span className="experiences-subtitle">
-                  Principais atividades:
-                </span>{" "}
-                Análise do processo de produção de maneira geral, elaboração um
-                fluxograma do processo produtivo, sinalizar possíveis melhorias,
-                conversar compreender dificuldades que cada setor enfrenta e
-                buscar soluções, diminuição de custos e tempo de produção,
-                contato com fornecedores para cotação de produtos e
-                matéria-prima, calculo de preços inseridos na produção de
-                mercadorias
-              </p>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineOppositeContent>
-              <p className="experiences-title"> 08/2022 até 08/2023</p>
+              <p className="experiences-title"> 07/2022 até 10/2023</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot />
@@ -60,10 +33,7 @@ const Experiences: React.FC = (): ReactElement => {
             <TimelineContent>
               <p className="experiences-title">Nexum Tecnologia</p>
               <p className="experiences-subtitle">
-                Cargo Inicial: Estagiário de Desenvolvimento
-              </p>
-              <p className="experiences-subtitle">
-                Cargo Final: Desenvolvedor Front-end
+                Cargo: Desenvolvedor Front-end
               </p>
               <p className="experiences-details">
                 <span className="experiences-subtitle">
@@ -80,6 +50,8 @@ const Experiences: React.FC = (): ReactElement => {
                     Suporte ao cliente com a plataforma e dúvidas de JavaScript
                   </li>
                   <li>Automação de processos de Cooperativas de Crédito</li>
+                  <li>Desenvolvi soluções de automação utilizando JavaScript e Java que resultaram
+em reduções de 30% no tempo de execução de processos.</li>
                 </ul>
               </p>
             </TimelineContent>
@@ -95,29 +67,38 @@ const Experiences: React.FC = (): ReactElement => {
             <TimelineContent>
               <p className="experiences-title">AnyTask Soluções</p>
                <p className="experiences-subtitle">
-                Cargo Inicial: Estagiário de Desenvolvimento
+                Cargo: Desenvolvedor Fullstack
               </p>
-              <p className="experiences-subtitle">
-                Cargo Final: Desenvolvedor Júnior IV
-              </p>
+            
               <p className="experiences-details">
                 <span className="experiences-subtitle">
                   Principais atividades:
                 </span>
                 <ul>
-                  <li>
-                    Desenvolvimento de telas interativas com Java, JSF,
-                    PrimeFaces e CSS
-                  </li>
-                  <li>Desenvolvimento de RPA com Java 11, Selenium</li>
-                  <li>Outras ferramentas: PostgreSQL, Git, RedMine</li>
-                </ul>
+  <li><strong>Responsabilidades:</strong></li>
+  <ul>
+    <li><strong>Desenvolvimento Front-End:</strong> Criação de telas interativas com Java, JSF, PrimeFaces e CSS.</li>
+    <li><strong>Desenvolvimento de RPA:</strong> Automação de processos com Java 11 e Selenium.</li>
+    <li><strong>Outras Ferramentas:</strong> PostgreSQL, Git e RedMine para controle de versão, banco de dados e gestão de tarefas.</li>
+  </ul>
+  <li><strong>Resultados:</strong></li>
+  <ul>
+    <li>Desenvolvi novas funcionalidades no produto BPMS da empresa, incluindo um módulo para acompanhamento de chamados de suporte.</li>
+    <li>Implementei uma feature de rastreamento de pedidos em plataforma de cliente, otimizando a comunicação entre sistema e usuário final.</li>
+    <li>Realizei correções e melhorias contínuas tanto no produto interno quanto em soluções personalizadas para clientes.</li>
+    <li>Criei telas e dashboards que facilitaram a visualização do andamento de fluxos operacionais dentro do BPMS.</li>
+    <li>Integrei sistemas de terceiros para centralizar informações e melhorar a experiência do usuário.</li>
+    <li>Desenvolvi RPAs unificando processos antes distribuídos em três plataformas distintas em uma única solução centralizada.</li>
+    <li>Migração de sistema legado em JSP para Vue.</li>
+  </ul>
+</ul>
+
               </p>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>
-              <p className="experiences-title"> 06/2024 até 01/2025</p>
+              <p className="experiences-title"> 04/2024 até 03/2025</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot />
@@ -127,7 +108,7 @@ const Experiences: React.FC = (): ReactElement => {
             <TimelineContent>
               <p className="experiences-title">Claire co</p>
               <p className="experiences-subtitle">
-                Cargo: Desenvolvedor Front-end Jr
+                Cargo: Desenvolvedor Front-end
               </p>
               <p className="experiences-details">
                 <span className="experiences-subtitle">
