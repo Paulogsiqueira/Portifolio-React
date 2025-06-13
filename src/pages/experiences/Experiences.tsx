@@ -67,3 +67,69 @@ const Experiences: React.FC = (): ReactElement => {
                     <ul>
                       <li>Desenvolvimento de interfaces com Java, JSF, PrimeFaces e CSS</li>
                       <li>Automação de processos com Java 11 e Selenium</li>
+                      <li>Uso de PostgreSQL, Git e RedMine</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Resultados:</strong>
+                    <ul>
+                      <li>Desenvolvimento de funcionalidades no BPMS</li>
+                      <li>Feature de rastreamento de pedidos</li>
+                      <li>Correções e melhorias contínuas</li>
+                      <li>Criação de dashboards operacionais</li>
+                      <li>Integrações com sistemas de terceiros</li>
+                      <li>Unificação de processos com RPA</li>
+                      <li>Migração de sistema legado para Vue</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent>
+              <p className="experiences-title">04/2024 até 03/2025</p>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <p className="experiences-title">Claire co</p>
+              <p className="experiences-subtitle">Cargo: Desenvolvedor Front-end</p>
+              <div className="experiences-details">
+                <span className="experiences-subtitle">Tecnologias usadas:</span>
+                <ul>
+                  <li>HTML, CSS, Tailwind, Shadcn, Apexchart</li>
+                  <li>React, Next</li>
+                  <li>Git, Insomnia/Postman, Figma</li>
+                </ul>
+              </div>
+              <div className="experiences-details">
+                <span className="experiences-subtitle">Principais atividades:</span>
+                <br />
+                <strong>Desenvolvimento do módulo Claire ID:</strong>
+                <ul>
+                  <li>Questionário baseado no modelo Dawkins</li>
+                  <li>Cálculo de perfil com base nas respostas</li>
+                  <li>Ofertas de acompanhamento personalizado</li>
+                  <li>Visualização do perfil com gráficos</li>
+                </ul>
+                <br />
+                <strong>Desenvolvimento do módulo Claire Pass:</strong>
+                <ul>
+                  <li>Importação de planilhas com dados dos funcionários</li>
+                  <li>Exibição por departamentos e índices psicológicos</li>
+                  <li>Tela de controle para edição e liberação de acessos</li>
+                </ul>
+              </div>
+            </TimelineContent>
+          </TimelineItem>
+        </Timeline>
+      </div>
+    </div>
+  );
+};
+
+export default Experiences;
