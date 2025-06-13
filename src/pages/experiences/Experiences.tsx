@@ -34,7 +34,7 @@ const Experiences: React.FC = (): ReactElement => {
               <p className="experiences-title">Nexum Tecnologia</p>
               <p className="experiences-subtitle">Cargo: Desenvolvedor Front-end</p>
               <div className="experiences-details">
-                <span className="experiences-subtitle">Principais atividades:</span>
+                <span className="experiences-subtitle">Principais atividades:
                 <ul>
                   <li>Desenvolvimento de interfaces com HTML, CSS e JavaScript</li>
                   <li>Consumo de API</li>
@@ -44,6 +44,7 @@ const Experiences: React.FC = (): ReactElement => {
                   <li>Automação de processos de Cooperativas de Crédito</li>
                   <li>Desenvolvi soluções de automação utilizando JavaScript e Java que resultaram em reduções de 30% no tempo de execução de processos.</li>
                 </ul>
+                  </span>
               </div>
             </TimelineContent>
           </TimelineItem>
