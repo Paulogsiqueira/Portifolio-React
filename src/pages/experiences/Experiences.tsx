@@ -107,9 +107,10 @@ const Experiences: React.FC = (): ReactElement => {
                   <li>React, Next</li>
                   <li>Git, Insomnia/Postman, Figma</li>
                 </ul>
+                </span>
               </div>
               <div className="experiences-details">
-                <span className="experiences-subtitle">Principais atividades:</span>
+                <span className="experiences-subtitle">Principais atividades:
                 <br />
                 <strong>Desenvolvimento do módulo Claire ID:</strong>
                 <ul>
